@@ -3,3 +3,10 @@ What happens when you initialize a repository? Why do you need to do it?
 When a repository is initialized, git creates some metadata which will handle the history
 of the repository, as well as other data not needed by the user. This needs to be done
 to create a new working repository in a new folder/project.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area is where potential changes are added to before commiting to the repository. It is different
+from working directory and the repository because it acts as an intermediatory location whereas the working
+directory and repository are fixed/final locations. The staging area is important because it allows
+the user to consider whether a change needs to be committed.
