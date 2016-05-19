@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When a repository is initialized, git creates some metadata which will handle the history
+of the repository, as well as other data not needed by the user. This needs to be done
+to create a new working repository in a new folder/project.
