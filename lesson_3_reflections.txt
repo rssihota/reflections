@@ -8,3 +8,15 @@ Why might you want to always pull changes manually rather than having Git automa
 Manual pull would be more desirable because it allows you to control the changes that occur to your local repository.
 If this was an automatic process, then you may lose work if, perhaps, the file pulled was being edited on the local
 machine.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+forks copies one GitHub repository to another GitHub repository. It is used when you would like to add someone's
+repository to your own account so you can make changes without affecting the original.
+
+clones copies a repository (remote or local) to your local machine. It is used when you would like a copy
+of a repository on your local machine
+
+branches creates a new node from the master, where changes to it do not immediately affect the project. It is used
+when you would like to add a new feature to an existing project.
+
