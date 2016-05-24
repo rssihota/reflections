@@ -10,3 +10,36 @@ The staging area is where potential changes are added to before commiting to the
 from working directory and the repository because it acts as an intermediatory location whereas the working
 directory and repository are fixed/final locations. The staging area is important because it allows
 the user to consider whether a change needs to be committed.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+After a file is added to the staging area, you can run git diff --staged to see the differences
+between the previous commit and the new changes. If a file contains changes that does not logically
+match the changes of another then you would know not to commit it.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+You might want to use branches when you have different versions of the same program (ie. Windows versions, Linux version, etc.).
+By using branches, you can work and test each version separately.
+
+How do the diagrams help you visualize the branch structure?
+
+By drawing a diagram of the different commits and branches, you cannot understand parent-child relationships,
+and determined which commits are unreachable by the current Head. For example, if branch b and a are not along the same
+linear path, then they cannot be reached from one another unless the branch is checked out, or a commit id is
+checked out.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+By merging two branches together, any changes made to a file by the two branches will be merged together.
+This creates a single working branch rather then having two almost redundant branches. The merged commit
+is represented with two arrows to each of its branch because this allows that branch to see the commits
+of both branches.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging: - Pros: * Quicker process
+				   - Cons: * Potential for conflict when multiple contributers made changes to the same file
+
+Manual merging: - Pros: * Allows users to eliminate merge conflicts
+				- Cons: * Can be time consuming to read through all the different changes
