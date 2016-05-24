@@ -20,3 +20,8 @@ of a repository on your local machine
 branches creates a new node from the master, where changes to it do not immediately affect the project. It is used
 when you would like to add a new feature to an existing project.
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+This allows the user to know whether there current local repository is up to date with the
+remote repository.
+
