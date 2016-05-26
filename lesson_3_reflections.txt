@@ -32,3 +32,10 @@ of the different changes to files. It would be harder to compare changes to file
 conflicting changes. What would be easier is that you would not have to learn the various order of
 git commands and terminology.
 
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+You would want to use branches when you do not want to make direct changes to the master (ie. you are testing a new feature) and
+would like your colleagues to check out the changes before they are ultimately added to the master. The benefit of this is that
+you can easily manage conflicts. The benefit of working directly on the master is that you do no need to take additional steps
+to resolve conflicts.
+
